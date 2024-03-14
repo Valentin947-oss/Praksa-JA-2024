@@ -1,0 +1,707 @@
+.body{
+    height: 4400px;
+}
+.prvdel{
+    background-color: rgb(238, 205, 161);
+    height: 1000px;
+    width: 80%;
+    position:absolute;
+    left: 10%;
+    border-radius:15px;
+}
+.sl img{
+    position: absolute;
+    height: 380px;
+    width: 250px;
+    top: 70px;
+    left: 79%;
+}
+.sl2 img{
+    position: absolute;
+    height: 600px;
+    width: 420px;
+    left: 33%;
+}
+.sl3 img{
+    position: absolute;
+    height: 250px;
+    width: 190px;
+    top: 170px;
+    left: 120px;
+}
+.sl4 img{
+    position: absolute;
+    height: 350px;
+    width: 180px;
+    top: 120px;
+}
+.polukrug{
+    position: absolute;
+    background-color: rgb(206, 161, 119);
+    transform: translate(-50%,);
+	height: 400px;
+	width: 360px;
+	border-radius: 180px 180px 0 0;
+	top: 570px;
+    rotate: 90deg;
+    left: 22px;
+}
+.pravag{
+position: absolute;
+height: 300px;
+width: 300px;
+background-color: rgb(206, 161, 119);
+border-top-left-radius: 150px;
+border-top-right-radius: 150px; 
+border-bottom-left-radius: 150px;
+border-bottom-right-radius: 5%;
+top: 700px;
+left: 75.5%;
+}
+.naslov1{
+    position:absolute;
+    top: 650px;
+    left: 30%;
+    font-family: 'Times New Roman', Times, serif;
+    text-align:center ;
+}
+.par{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    top: 780px;
+    left: 27%;
+    text-align: center;
+}
+.vtordel{
+    width: 80%;
+    font-family: 'Times New Roman', Times, serif;
+    height: 800px;
+    background-color: white;
+    left: 10%;
+}
+.s1 img{
+position: absolute;
+height: 300px;
+width: 250px;
+top: 1100px;
+left: 18%;
+border-top-left-radius: 100px;
+border-top-right-radius: 100px;
+}
+.s2 img{
+    position: absolute;
+height: 300px;
+width: 250px;
+top: 1100px;
+left: 43%;
+border-top-left-radius: 100px;
+border-top-right-radius: 100px;
+}
+.s3 img{
+    position: absolute;
+    height: 300px;
+    width: 250px; 
+    top: 1100px;
+    left: 68%;
+    border-top-left-radius: 100px;
+border-top-right-radius: 100px;
+}
+.malokrugce{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+    top: 1370px;
+    left: 24.5%;
+    font-size: xx-large;
+    color: grey;
+    text-align: center;
+}
+.malokrugce2{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+    top: 1370px;
+    left: 49.5%;
+    font-size: xx-large;
+    color: grey;
+    text-align: center;
+}
+.malokrugce3{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+    top: 1370px;
+    left: 74.5%;
+    font-size: xx-large;
+    color: grey;
+    text-align:center;
+}
+.naslovi1{
+position: absolute;
+font-size: 30px;
+font-family:Arial, Helvetica, sans-serif ;
+top: 1450px;
+left: 22.5%;
+}
+.naslovi2{
+    position: absolute;
+font-size: 30px;
+font-family:Arial, Helvetica, sans-serif ;
+top: 1450px;
+left: 47.5%;
+}
+.naslovi3{
+    position: absolute;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif ;
+    top: 1450px;
+    left: 73.5%; 
+}
+.podnaslovi1{
+    position: absolute;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    top: 1510px;
+    left: 18%;
+    text-align: center;
+}
+.podnaslovi2{
+    position: absolute;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    top: 1510px;
+    left: 43%;
+    text-align: center;
+}
+.podnaslovi3{
+    position: absolute;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    top: 1510px;
+    left: 68%;
+    text-align: center;
+}
+.but1{
+position: absolute;
+height: 50px;
+width: 100px;
+top: 1600px;
+left: 22%;
+background-color: goldenrod;
+color: aliceblue;
+border: 2px solid bisque;
+cursor: pointer;
+}
+.but2{
+    position: absolute;
+height: 50px;
+width: 100px;
+top: 1600px;
+left: 48.5%;
+background-color: goldenrod;
+color: aliceblue;
+border: 2px solid bisque;
+cursor: pointer;
+}
+.but3{
+    position: absolute;
+height: 50px;
+width: 100px;
+top: 1600px;
+left: 73%;
+background-color: goldenrod;
+color: aliceblue;
+border: 2px solid bisque;
+cursor: pointer;
+}
+.linija{
+    position: absolute;
+    height: 2px;
+    width: 80%;
+    background-color: rgb(17, 16, 16);
+    top: 1750px;
+    left: 10%;
+}
+.naslovgolem{
+    position: absolute;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    top: 2000px;
+    left: 10%;
+}
+.par1{
+  position: absolute;
+  text-align: justify;
+  font-size: medium;
+  font-family: 'Times New Roman', Times, serif;
+  top: 2100px;
+  left: 10%;
+  width: 35%;
+  line-height: 1.3;
+}
+.slikaGol img{
+    position: absolute;
+    height: 550px;
+    width: 400px;
+    top: 2350px;
+    left: 14%;
+}
+.slika2 img{
+position: absolute;
+height: 600px;
+width: 400px;
+top: 1850px;
+left: 52%;
+}
+.slika3 img{
+    position: absolute;
+    height: 350px;
+    width: 250px; 
+    top: 1950px;
+    left: 73%;
+}
+.par2{
+    position: absolute;
+  text-align: justify;
+  font-size: medium;
+  font-family: 'Times New Roman', Times, serif;
+  top: 2500px;
+  left: 52%;
+  width: 36%;
+  line-height: 1.3;
+}
+.but4{
+    position: absolute;
+height: 50px;
+width: 150px;
+top: 2750px;
+left: 52%;
+background-color: goldenrod;
+color: aliceblue;
+border: 2px solid bisque;
+cursor: pointer;
+}
+.del4{
+    background-color: rgb(231, 196, 164);
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    top: 3000px;
+    
+}
+.quotes{
+    position: absolute;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    top: 200px;
+    left: 25%;
+    width: 50%;
+    text-align: center;
+}
+.avtor{
+    position: absolute;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 330px;
+    left: 45%;
+    text-align: center;
+}
+.rec{
+    position: absolute;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    width: 80%;
+    top: 3600px;
+    left: 32%;
+}
+
+.n1 img{
+    position: absolute;
+    height: 200px;
+    width: 250px;
+    top: 3750px; 
+    
+}
+.n2 img{
+    position: absolute;
+    height: 200px;
+    width: 250px;
+    top: 3750px; 
+    left: 17%;
+}
+.n3 img{
+    position: absolute;
+    height: 200px;
+    width: 250px;
+    top: 3750px; 
+    left: 33%;
+}
+.n4 img{
+    position: absolute;
+    height: 200px;
+    width: 250px;
+    top: 3750px; 
+    left: 49%;
+}
+.n5 img{
+    position: absolute;
+    height: 200px;
+    width: 250px;
+    top: 3750px; 
+    left: 65%;
+}
+.n6 img{
+    position: absolute;
+    height: 200px;
+    width: 250px;
+    top: 3750px; 
+    left: 81.5%; 
+}
+
+.linija2{
+    position: absolute;
+    height: 2px;
+    width: 80%;
+    background-color: rgb(17, 16, 16);
+    top: 4000px;
+    left: 10%;
+}
+.subs{
+    position: absolute;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 4200px;
+    left: 30%;
+}
+.subsl img{
+    position: absolute;
+    height: 35px;
+    width: 50px;
+    top: 4200px;
+    left: 26%;
+
+}
+.info{
+    position: absolute;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 30%;
+    top: 4250px;
+    left: 20%;
+    text-align: center;
+}
+.box{
+    position: absolute;
+    top: 4350px;
+    left: 23.5%;
+    height: 100px;
+
+}
+.form-box{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ececec;
+    box-shadow: 10px 10px 15px #c7c4c4, -10px -10px 15px #fff;
+}
+.form-box input{
+    font-size: 10px;
+    color: #000;
+    padding: 15px 10px;
+    border: none;
+    outline: none;
+    background: #ececec;
+
+}
+.form-box button{
+color: #fff;
+padding: 15px 20px;
+font-size: 20px;
+border: none;
+border-radius: 5px;
+background: #4769d8;
+cursor: pointer;
+transition: .3s;
+}
+.form-box button:hover{
+    background: #2e54d3;
+}
+.linija3{
+    position: absolute;
+    height: 2px;
+    width: 80%;
+    background-color: rgb(17, 16, 16);
+    top: 4500px;
+    left: 10%;
+}
+.nav1{
+position: absolute;
+font-size: x-large;
+cursor: pointer;
+top: 4200px;
+left: 60%;
+}
+.nav2{
+    position: absolute;
+    font-size: x-large;
+    cursor: pointer;
+    top: 4200px;
+    left: 75%; 
+}
+.nav3{
+    position: absolute;
+font-size: x-large;
+cursor: pointer;
+top: 4270px;
+left: 60%;
+}
+.nav4{
+    position: absolute;
+font-size: x-large;
+cursor: pointer;
+top: 4270px;
+left: 75%;
+}
+.soc1 img{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 4570px;
+    left: 47%;
+}
+.soc2 img{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 4570px;
+    left: 52%;
+}
+.footer{
+    position: absolute;
+    top: 4650px;
+    left: 37%;
+    font-size: medium;
+}
+.grad{
+    position: absolute;
+    font-size: medium;
+    top: 4670px;
+    left: 47%;
+}
+
+
+
+.prvdel {
+    position: relative;
+    text-align: center;
+    padding: 20px;
+     
+    color: #2f3640; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.prvdel:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+}
+
+.sl img,
+.sl2 img,
+.sl3 img,
+.sl4 img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; 
+    
+    border-radius: 10px; 
+    transition: transform 0.3s ease;
+}
+
+.sl img:hover,
+.sl2 img:hover,
+.sl3 img:hover,
+.sl4 img:hover {
+    transform: scale(1.1); 
+}
+
+.naslov1 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.par {
+    font-size: 16px;
+}
+
+
+.s1 img,
+.s2 img,
+.s3 img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; 
+    border-radius: 10px; 
+    transition: transform 0.3s ease;
+}
+
+.s1 img:hover,
+.s2 img:hover,
+.s3 img:hover {
+    transform: scale(1.1); 
+}
+
+.naslovi1,
+.naslovi2,
+.naslovi3 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.podnaslovi1,
+.podnaslovi2,
+.podnaslovi3 {
+    font-size: 16px;
+}
+
+.but1,
+.but2,
+.but3 {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #2f3640; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.but1:hover,
+.but2:hover,
+.but3:hover {
+    background-color: #333; 
+}
+
+
+.tretdel {
+    text-align: center;
+    padding: 20px;
+    color: #2f3640; 
+}
+
+.slikaGol img,
+.slika2 img,
+.slika3 img {
+    
+    margin: 20px auto; 
+    max-width: 100%; 
+    height: auto;
+    border-radius: 10px; 
+    transition: transform 0.3s ease;
+}
+
+.slikaGol img:hover,
+.slika2 img:hover,
+.slika3 img:hover {
+    transform: scale(1.1); 
+}
+
+.par1,
+.par2 {
+    font-size: 16px;
+    margin-bottom: 20px; 
+}
+
+.but4 {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #2f3640; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.but4:hover {
+    background-color: #333; 
+}
+
+
+.rec {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+.picbar {
+    display: flex;
+    flex-direction: column; 
+   
+}
+
+.picbar div {
+    margin-bottom: 20px; 
+}
+
+.picbar img {
+    max-width: 100%; 
+    height: auto;
+    border-radius: 10px; 
+    transition: transform 0.3s ease; 
+}
+
+
+.picbar img:hover {
+    transform: scale(1.1); 
+}
+
+
+/* Styling for the "del5" section */
+.del5 {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Styling for the subscription section */
+.subs {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.subsl img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
+/* Styling for the navigation links */
+.del5 div[class^="nav"] {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+}
+
+.del5 div[class^="nav"]:hover {
+    background-color: #ccc;
+}

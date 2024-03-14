@@ -1,0 +1,619 @@
+body{
+    background-color: navajowhite;
+}
+.naslov{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6;
+	margin: 0;
+	min-height: 100vh;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+h2,
+h3,
+a {
+	color: #34495e;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+.logo {
+	margin: 0;
+	font-size: 1.45em;
+}
+
+.main-nav {
+	margin-top: 5px;
+
+}
+.logo a,
+.main-nav a {
+	padding: 10px 15px;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+}
+
+.main-nav a {
+	color: #34495e;
+	font-size: .99em;
+}
+
+.main-nav a:hover {
+	color: #718daa;
+}
+
+
+
+.header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	border: 1px solid #a2a2a2;
+	background-color: #f4f4f4;
+	-webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+
+
+@media (min-width: 769px) {
+	.header,
+	.main-nav {
+		display: flex;
+	}
+	.header {
+		flex-direction: column;
+		align-items: center;
+    	.header{
+		width: 80%;
+		margin: 0 auto;
+		max-width: 1150px;
+	}
+	}
+
+}
+
+@media (min-width: 1025px) {
+	.header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+}
+.main-nav img{
+    height: 30px;
+    width: 30px;
+}
+.voved{
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 180px;
+    align-items: left;
+    text-align: start;
+    left: 400px;
+    position: absolute;
+}
+.voved2{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 300px;
+    left: 450px;
+	align-items: center;
+    
+}
+.slikaVoved img{
+    position: absolute;
+    left: 1000px;
+    top: 160px;
+     border-top-left-radius: 40%;
+	 border-top-right-radius: 40%;
+}
+.dugmeVoved{
+	position: absolute;
+	top: 400px;
+	left: 860px;
+	height: 40px;
+	width: 90px;
+	color: black;
+	background-color: #718daa;
+	border-color: beige;
+	cursor: pointer;
+}
+.dugmeVoved :hover{
+	transition: 3ms;
+	transition-delay: 1ms;
+	text-overflow: inherit;
+	color: #a2a2a2;
+
+}
+.dugmeVoved::before ::content{
+	transition: 1ms;
+	transition-delay: 2ms;
+	color: #a2a2a2;
+}
+.krugKjosh{
+	position: absolute;
+	background-color: beige;
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+	top: 100px;
+	left: 1400px;
+}
+.vtordel{
+	position: absolute;
+	background-color: beige;
+	height: 380px;
+	width: 100%;
+	top: 500px;
+
+}
+.Naslovche{
+	position: absolute;
+	top: 50px;
+	left: 150px;
+}
+.text{
+	position: absolute;
+	top: 120px;
+	left: 150px;
+	font-size: larger;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.polukrug{
+	position: absolute;
+	background-color: beige;
+	border: 2px solid  black;
+	height: 220px;
+	width: 338px;
+	border-top-left-radius: 70%;
+	border-bottom-left-radius: 70%;
+	top: 70px;
+	left: 1200px;
+}
+.krug2{
+	position: absolute;
+	background-color: grey;
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+	top: 220px;
+	left: 1350px;
+}
+.tretdel{
+	background-color: navajowhite;
+	height: 600px;
+	width: 100%;
+	position: absolute;
+	top: 1000px;
+}
+.levpolukrug{
+	position: absolute;
+	border: 2px solid black;
+	background-color: navajowhite;
+	height: 350px;
+	width: 150px;
+	border-top-right-radius: 70%;
+	border-bottom-right-radius: 70%;
+}
+.krug3{
+	position:absolute;
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+	top: 50px;
+	left: 100px;
+	background-color: beige;
+}
+.naslov3{
+	position: absolute;
+	font-size: xx-large;
+	left: 30%;
+}
+.slika1 img{
+position: absolute;
+height: 450px;
+width: 350px;
+top: 80px;
+left: 250px;
+border-top-left-radius: 40%;
+border-top-right-radius: 40%;
+}
+.slika2 img{
+	position: absolute;
+	height: 450px;
+	width: 350px;
+	top: 80px;
+	left: 670px;
+	border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+}
+.slika3 img{
+	position: absolute;
+	height: 450px;
+	width: 350px;
+	top: 80px;
+	left: 1100px;
+	border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+}
+
+.textbox1{
+	display: flex;
+	box-sizing: content-box;
+position: absolute;
+background-color: yellow;
+color: black;
+height: 40px;
+width: 80px;
+border: 2px solid whitesmoke;
+top: 300px;
+left: 380px;
+justify-content: center;
+text-align: center;
+font-size: small;
+border-radius: 20px;
+}
+.textbox2{
+	display: flex;
+	box-sizing: content-box;
+	position: absolute;
+    background-color: yellow;
+    color: black;
+    height: 60px;
+    width: 100px;
+    border: 2px solid whitesmoke;
+	justify-content: center;
+	text-align: center;
+	font-size: small;
+	top: 300px;
+	left: 800px;
+	border-radius: 20px;
+}
+.textbox3{
+	display: flex;
+	box-sizing: content-box;
+	position: absolute;
+    background-color: yellow;
+    color: black;
+    height: 40px;
+    width: 95px;
+    border: 2px solid whitesmoke;
+	justify-content: center;
+	text-align: center;
+	top: 300px;
+	left: 1240px;
+	font-size: small;
+	border-radius: 20px;
+	
+}
+.textbox.visible {
+    opacity: 1;
+}
+
+.del4{
+	position: absolute;
+	height: 400px;
+	width: 100%;
+	top: 1600px;
+	background-color: white;
+
+}
+.sl1 img{
+	position: absolute;
+	height: 170px;
+	width: 180px;
+	top: 100px;
+	left: 130px;
+}
+.sl2 img{
+position: absolute;
+top: 100px;
+left: 400px;
+}
+.sl3 img{
+	position: absolute;
+	height: 200px;
+	width: 250px;
+	top: 100px;
+	left: 800px;
+}
+.sl4 img{
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	top: 100px;
+	left: 1200px;
+}
+.naslovDel4{
+	position: absolute;
+	left: 45%;
+}
+.sl1.opst{
+	position: absolute;
+	height: 20px;
+	width: 30px;
+}
+.delche{
+	position:absolute;
+	height: 250px;
+	width: 150px;
+	background-color: navajowhite;
+	border: 2px solid black;
+	border-top-left-radius: 30%;
+	border-top-right-radius: 30%;
+	border-bottom-left-radius: 30%;
+	border-bottom-right-radius: 30%;
+	left: 250px;
+	top: 2100px;
+}
+.krug5{
+	position: absolute;
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	background-color: azure;
+	top: 2100px;
+	left: 200px;
+}
+.slika6 img{
+	position: absolute;
+	height: 300px;
+	width: 200px;
+	top: 2150px;
+	left: 330px;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	border: top radius 50%; ;
+}
+.nas{
+	position: absolute;
+	top: 2100px;
+	left: 40%;
+}
+.par{
+	position: absolute;
+	top: 2200px;
+	left: 40%;
+	font-size: large;
+}
+.but{
+	position: absolute;
+	top: 2450px;
+	left: 40%;
+	background-color: #718daa;
+	border: 2px solid beige;
+	height: 50px;
+	width: 320px;
+	cursor: pointer;
+	font-size: medium;
+}
+.polukrugg{
+	position: absolute;
+	top: 2470px;
+	left: 70%;
+	transform: translate(-50%,);
+	height: 135px;
+	width: 200px;
+	border-radius: 150px 150px 0 0;
+	background-color: navajowhite;
+	border: 2px solid black;
+}
+.krugdel5{
+	position: absolute;
+	background-color: aliceblue;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	top: 2450px;
+	left: 79%;
+}
+.pokrivanje{
+	position: absolute;
+	background-color: navajowhite;
+	height: 5px;
+	width: 100%;
+	top: 2600px;
+}
+.header {
+    transition: background-color 0.3s ease;
+}
+
+.header:hover {
+    background-color: #8ecae6;
+}
+
+.main-nav li {
+    transition: transform 0.3s ease;
+}
+
+.main-nav li:hover {
+    transform: translateY(-5px);
+}
+
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f9ca24;
+    color: #2f3640;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover {
+    background-color: #ffda79;
+    transform: scale(1.05);
+}
+
+
+
+.voved {
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    color: #333; 
+    transition: color 0.3s ease;
+}
+
+
+
+.voved2 {
+    right: 30px;
+    padding: 20px;
+    font-size: 18px;
+    color: #555; 
+    transition: color 0.4s ease;
+}
+
+.voved2:hover {
+    color: #352f1c; 
+}
+
+.dugmeVoved {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #f9ca24;
+    color: #2f3640;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.dugmeVoved:hover {
+    background-color: #ffda79; 
+    transform: scale(1.05); 
+}
+
+.krugKjosh {
+    width: 100px;
+    height: 100px;
+    background-color: #f9ca24;
+    border-radius: 50%;
+    margin: 20px auto;
+    transition: background-color 0.3s ease;
+}
+
+.krugKjosh:hover {
+    background-color: #ffda79; 
+}
+
+
+
+.naslov3 {
+    font-size: 24px;
+    
+    margin-bottom: 20px;
+    color: #333; 
+    transition: color 0.3s ease;
+}
+
+.naslov3:hover {
+    color: #f9ca24; 
+}
+
+.slika1 img,
+.slika2 img,
+.slika3 img {
+    display: block;
+    margin: 0 auto;
+    
+    
+    transition: transform 0.3s ease;
+}
+
+.slika1:hover img,
+.slika2:hover img,
+.slika3:hover img {
+    transform: scale(1.1); 
+}
+
+.textbox1,
+.textbox2,
+.textbox3 {
+    text-align: center;
+    padding: 10px;
+    background-color: #f9ca24; 
+    color: #2f3640; 
+    border: 2px solid transparent;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.textbox1:hover,
+.textbox2:hover,
+.textbox3:hover {
+    background-color: #ffda79; 
+    transform: translateY(-5px); 
+}
+
+
+.naslovDel4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333; 
+    transition: color 0.3s ease;
+}
+
+.naslovDel4:hover {
+    color: #f9ca24; 
+}
+
+.sl1,
+.sl2,
+.sl3,
+.sl4 {
+    text-align: center;
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+}
+
+.sl1:hover,
+.sl2:hover,
+.sl3:hover,
+.sl4:hover {
+    transform: translateY(-5px); 
+}
+
+.sl1 img,
+.sl2 img,
+.sl3 img,
+.sl4 img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; 
+    transition: transform 0.3s ease;
+}
+
+.sl1 img:hover,
+.sl2 img:hover,
+.sl3 img:hover,
+.sl4 img:hover {
+    transform: scale(1.1); 
+}
