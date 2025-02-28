@@ -1,4 +1,3 @@
-
 window.addEventListener('scroll', function() {
 	var textbox1 = document.querySelector('.slika1');
 	var textbox2 = document.querySelector('.slika2');
